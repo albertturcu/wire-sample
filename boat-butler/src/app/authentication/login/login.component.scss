@@ -1,0 +1,39 @@
+mat-form-field,
+button {
+  width: 90%;
+  margin: 15px;
+}
+.card {
+  background-color: rgb(255, 255, 255, 0.9);
+  max-width: 350px;
+  max-height: 450px;
+  height: 100%;
+  text-align: center;
+  border-radius: 0px;
+  position: absolute;
+  border-radius: 0px;
+  left: 50%;
+  margin-left: -175px;
+  top: 50%;
+  margin-top: -225px;
+  padding-top: 0px !important;
+}
+
+.cardTitle {
+  background-color: #1b2a49;
+  color: white;
+  text-transform: uppercase;
+  margin: -16px -16px 15px -16px;
+  padding: 15px;
+}
+
+.signInButton {
+  font-size: 20px;
+  height: 40px;
+  background-color: #f6cc51;
+  border-radius: 0px;
+  padding: 0px 15px 0px 15px;
+  margin: 15px;
+  padding-left: 75px;
+  padding-right: 75px;
+}

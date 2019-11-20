@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <!-- Header Above -->
+  <app-header #header (toggleSidenav)="sidenav.toggle()"></app-header>
+
+  <mat-sidenav-container autosize autoFocus>
+    <mat-sidenav #sidenav
+                 [mode]="isOver ? 'over' : 'side'"
+                 [opened]="!isOver"
+                 (openedChange)="openedChange($event)">
+      <app-sidebar></app-sidebar>
+    </mat-sidenav>
+
+    <mat-sidenav-content #content>
+      <app-header #header (toggleSidenav)="sidenav.toggle()"></app-header>
+
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+</div>

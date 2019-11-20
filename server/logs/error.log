@@ -1,0 +1,194 @@
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T10:46:36.204Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T10:46:36.232Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T10:46:36.919Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T11:57:13.270Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T11:58:35.089Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:29:43.015Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:31:52.304Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:33:20.038Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:35:27.955Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:37:34.252Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:38:17.052Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:39:10.989Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-16T12:39:33.930Z'
+}
+{
+  message: 'Mongoose default connection disconnected',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:22:59.248Z'
+}
+{
+  message: 'Mongoose default connection disconnected',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:23:35.517Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:32:42.301Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:33:02.369Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:33:28.014Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:39:01.072Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:41:15.073Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:41:24.247Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:42:35.307Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:42:44.934Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:43:11.100Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:44:04.936Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:44:06.269Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:45:47.488Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:46:23.522Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T21:49:08.454Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T22:57:00.460Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T22:58:58.761Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T22:59:17.651Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T22:59:19.284Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T22:59:37.337Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T22:59:41.377Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-19T23:00:10.093Z'
+}

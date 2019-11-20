@@ -1,0 +1,12 @@
+<mat-toolbar>
+  <button mat-button class="matero-hamburger" (click)="toggleSidenav.emit()" *ngIf="showToggle">
+    <mat-icon>menu</mat-icon>
+  </button>
+  
+  <span fxFlex></span>
+
+  <app-notification fxHide.lt-sm></app-notification>
+
+  <app-user></app-user>
+
+</mat-toolbar>
