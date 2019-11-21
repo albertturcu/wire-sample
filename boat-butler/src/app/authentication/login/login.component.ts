@@ -25,6 +25,9 @@ export class LoginComponent implements OnInit {
       username: ['', Validators.required],
       password: ['', Validators.required]
     });
+    if (this.authenticationService.isLoggedIn) {
+      this.router.navigate(['/admin']);
+    }
   }
 
   get f() { return this.loginForm.controls; }
@@ -33,17 +36,15 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.invalid) {
         return;
     }
-    console.log(this.f.username.value);
-    console.log(this.f.password.value);
-    this.authenticationService.login(this.f.username.value, this.f.password.value)
-        .pipe(first())
-        .subscribe(
-            data => {
-                this.router.navigate(['proposal']);
-            },
-            error => {
-                this.error = error;
-            });
-    this.router.navigate(['admin']);
+    // this.authenticationService.login(this.f.username.value, this.f.password.value)
+    //     .pipe(first())
+    //     .subscribe(
+    //         data => {
+    //             this.router.navigate(['proposal']);
+    //         },
+    //         error => {
+    //             this.error = error;
+    //         });
+    this.router.navigate(['/admin']);
   }
 }

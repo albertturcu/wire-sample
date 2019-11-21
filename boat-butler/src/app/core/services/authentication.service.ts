@@ -10,15 +10,23 @@ import { User } from '../Interfaces/user';
 export class AuthenticationService {
     private currentUserSubject: BehaviorSubject<User>;
     public currentUser: Observable<User>;
+    public isLoggedIn: boolean;
 
     constructor(private http: HttpClient) {
         this.currentUserSubject = new BehaviorSubject<User>(JSON.parse(localStorage.getItem('currentUser')));
         this.currentUser = this.currentUserSubject.asObservable();
     }
 
-    public get currentUserValue(): User {
+    public get currentUserValue(): any {
+        if (this.currentUser) {
+            this.isLoggedIn = true;
+          } else {
+            this.isLoggedIn = false;
+          }
+      
         return this.currentUserSubject.value;
     }
+    
 
     login(username: string, password: string) {
         return this.http.post<any>(`${environment.SERVER_URL}/api/login`, { username: username, password: password })

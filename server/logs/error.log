@@ -192,3 +192,29 @@
   service: 'user-service',
   timestamp: '2019-11-19T23:00:10.093Z'
 }
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-20T15:24:15.074Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{username:',
+  type: 'entity.parse.failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-20T15:29:11.324Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{username: "wiresample", password: "wirepass"}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-20T15:29:42.167Z'
+}
