@@ -13,6 +13,8 @@ var JobSchema = new mongoose.Schema(
     allow_contact_by_email: Boolean,
     lat: String,
     lng: String,
+    location: String,
+    boat_type: String,
     price: Number,
     posted: Boolean,
     due_time: Date,

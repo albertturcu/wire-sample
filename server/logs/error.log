@@ -296,3 +296,409 @@
   service: 'user-service',
   timestamp: '2019-11-21T22:17:02.550Z'
 }
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:27:13.129Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "{ company_id: null }" at path "company_id" for model "Proposal"',
+  name: 'CastError',
+  stringValue: '"{ company_id: null }"',
+  kind: 'ObjectId',
+  value: { company_id: null },
+  path: 'company_id',
+  reason: undefined,
+  model: Model { Proposal },
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:32:54.044Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "{ company_id: null }" at path "company_id" for model "Proposal"',
+  name: 'CastError',
+  stringValue: '"{ company_id: null }"',
+  kind: 'ObjectId',
+  value: { company_id: null },
+  path: 'company_id',
+  reason: undefined,
+  model: Model { Proposal },
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:33:27.985Z'
+}
+{
+  message: `Cast to ObjectId failed for value "{ company_id: '"5dd6d2d184cc8b3dec45ec84"' }" at path "company_id" for model "Proposal"`,
+  name: 'CastError',
+  stringValue: `"{ company_id: '"5dd6d2d184cc8b3dec45ec84"' }"`,
+  kind: 'ObjectId',
+  value: { company_id: '"5dd6d2d184cc8b3dec45ec84"' },
+  path: 'company_id',
+  reason: undefined,
+  model: Model { Proposal },
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:34:02.661Z'
+}
+{
+  message: 'Cast to ObjectId failed for value ""5dd6d2d184cc8b3dec45ec84"" at path "company_id" for model "Proposal"',
+  name: 'CastError',
+  stringValue: '""5dd6d2d184cc8b3dec45ec84""',
+  kind: 'ObjectId',
+  value: '"5dd6d2d184cc8b3dec45ec84"',
+  path: 'company_id',
+  reason: undefined,
+  model: Model { Proposal },
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:34:26.769Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:35:54.620Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:36:10.744Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:38:27.367Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:38:36.258Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:39:05.526Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:42:16.120Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:43:09.042Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:43:20.925Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "ObjectId {\n' +
+    `  path: '"5dd6d2d184cc8b3dec45ec84"',\n` +
+    "  instance: 'ObjectID',\n" +
+    '  validators: [],\n' +
+    '  getters: [],\n' +
+    '  setters: [],\n' +
+    '  options: SchemaObjectIdOptions {},\n' +
+    '  _index: null,\n' +
+    '  [Symbol(mongoose#schemaType)]: true\n' +
+    '}" at path "company_id" for model "Proposal"',
+  name: 'CastError',
+  stringValue: '"ObjectId {\n' +
+    `  path: '"5dd6d2d184cc8b3dec45ec84"',\n` +
+    "  instance: 'ObjectID',\n" +
+    '  validators: [],\n' +
+    '  getters: [],\n' +
+    '  setters: [],\n' +
+    '  options: SchemaObjectIdOptions {},\n' +
+    '  _index: null,\n' +
+    '  [Symbol(mongoose#schemaType)]: true\n' +
+    '}"',
+  kind: 'ObjectId',
+  value: ObjectId {
+    path: '"5dd6d2d184cc8b3dec45ec84"',
+    instance: 'ObjectID',
+    validators: [],
+    getters: [],
+    setters: [],
+    options: SchemaObjectIdOptions {},
+    _index: null,
+    [Symbol(mongoose#schemaType)]: true
+  },
+  path: 'company_id',
+  reason: undefined,
+  model: Model { Proposal },
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:45:23.359Z'
+}
+{
+  message: 'Cast to ObjectId failed for value ""5dd6d2d184cc8b3dec45ec84"" at path "company_id" for model "Proposal"',
+  name: 'CastError',
+  stringValue: '""5dd6d2d184cc8b3dec45ec84""',
+  kind: 'ObjectId',
+  value: '"5dd6d2d184cc8b3dec45ec84"',
+  path: 'company_id',
+  reason: undefined,
+  model: Model { Proposal },
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:46:04.417Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:48:28.068Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:48:50.358Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:49:00.108Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T11:49:15.665Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T14:08:37.406Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T14:09:18.267Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T14:10:00.289Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T14:10:14.374Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T14:10:18.225Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T16:53:28.238Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T16:53:28.244Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T16:53:28.251Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T16:55:40.153Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T16:55:40.160Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T16:55:40.164Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:35:07.009Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:35:07.022Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:35:07.037Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:35:37.871Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:35:37.879Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:35:37.890Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:36:02.761Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:36:02.770Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:36:02.775Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:36:18.618Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:36:18.626Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:36:18.637Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:05.716Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:05.733Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:05.742Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:27.120Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:27.148Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:27.171Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:35.313Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:35.331Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T18:38:35.349Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T19:12:17.819Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T19:12:54.677Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T19:12:54.862Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T20:17:02.656Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T20:17:27.175Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T20:19:26.502Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T20:19:29.756Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T20:20:20.126Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-22T20:20:38.658Z'
+}

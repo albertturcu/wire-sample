@@ -1,37 +1,55 @@
 <div class="container mat-elevation-z8">
-    <table mat-table [dataSource]="dataSource">
-      <ng-container matColumnDef="name">
-        <th mat-header-cell *matHeaderCellDef>User Name</th>
-        <td mat-cell *matCellDef="let element">{{ element.name }}</td>
-      </ng-container>
-  
-      <ng-container matColumnDef="boat_type">
-        <th mat-header-cell *matHeaderCellDef>Boat Type</th>
-        <td mat-cell *matCellDef="let element">{{ element.boat_type }}</td>
-      </ng-container>
-  
-      <ng-container matColumnDef="service">
-        <th mat-header-cell *matHeaderCellDef>Service</th>
-        <td mat-cell *matCellDef="let element">{{ element.service }}</td>
-      </ng-container>
-  
-      <ng-container matColumnDef="boat_location">
-        <th mat-header-cell *matHeaderCellDef>Boat Location</th>
-        <td mat-cell *matCellDef="let element">{{ element.boat_location }}</td>
-      </ng-container>
-  
-      <ng-container matColumnDef="job_type">
-        <th mat-header-cell *matHeaderCellDef>Job Type</th>
-        <td mat-cell *matCellDef="let element">{{ element.job_type }}</td>
-      </ng-container>
-  
-      <ng-container matColumnDef="actions">
-        <th mat-header-cell *matHeaderCellDef>Actions</th>
-        <td mat-cell *matCellDef="let element"></td>
-      </ng-container>
-  
-      <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
-      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
-    </table>
-  </div>
-  
+  <table mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>User Name</th>
+      <td mat-cell *matCellDef="let element">{{ element.user.name }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="boat_type">
+      <th mat-header-cell *matHeaderCellDef>Boat Type</th>
+      <td mat-cell *matCellDef="let element">{{ element.boat_type }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="service">
+      <th mat-header-cell *matHeaderCellDef>Service</th>
+      <td mat-cell *matCellDef="let element">{{ element.description }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="boat_location">
+      <th mat-header-cell *matHeaderCellDef>Boat Location</th>
+      <td mat-cell *matCellDef="let element">{{ element.location }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="job_type">
+      <th mat-header-cell *matHeaderCellDef>Job Type</th>
+      <td mat-cell *matCellDef="let element">
+        <button
+          mat-flat-button
+          disabled
+          [ngClass]="element.is_emergency ? 'emergency' : 'normal'"
+        >{{element.is_emergency? 'Emergency': 'Normal'}}
+        </button>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef>Actions</th>
+      <td mat-cell *matCellDef="let element">
+        <button
+          mat-flat-button
+          class="emergency"
+          style="max-width: 150px;
+          margin-right: 45px;
+          margin-left: 45px;"
+          (click)="cancelProposal(element.proposal_id)"
+          *ngIf="element.status!=='cancelled'"
+        >Cancel Proposal
+        </button>
+        <mat-icon style="vertical-align: middle">search</mat-icon>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</div>

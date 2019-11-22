@@ -15,7 +15,6 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private formBuilder: FormBuilder,
-    private route: ActivatedRoute,
     private router: Router,
     private authenticationService: AuthenticationService,
   ) { }
@@ -26,28 +25,16 @@ export class LoginComponent implements OnInit {
       password: ['', Validators.required]
     });
     console.log(this.authenticationService.isLoggedIn);
-    if (this.authenticationService.currentUserValue()) {
+    if (this.authenticationService.isLoggedIn) {
       this.router.navigate(['/proposals']);
     }
+    console.log(this.authenticationService.isLoggedIn);
   }
 
   get f() { return this.loginForm.controls; }
 
-  login() {
-    if (this.loginForm.invalid) {
-        return;
-    }
-    this.authenticationService.login(this.f.username.value, this.f.password.value)
-        .pipe(first())
-        .subscribe(
-            data => {
-              if(data){
-                this.router.navigate(['/proposals']);
-              }
-            },
-            error => {
-                this.error = error;
-            });
+  async login() {
+    await this.authenticationService.login(this.f.username.value, this.f.password.value);
     this.router.navigate(['/proposals']);
   }
 }

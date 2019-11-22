@@ -1,24 +1,51 @@
-import { Component } from '@angular/core';
-
-export interface Proposal {
-  name: string;
-  boat_type: string;
-  service: string;
-  boat_location: string;
-  job_type: string;
-}
+import {
+  Component,
+  Input,
+  OnInit,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef
+} from "@angular/core";
+import { Proposal } from "../../core/Interfaces/proposal";
+import { ProposalService } from "app/core/services/proposal.service";
+import { Router } from "@angular/router";
 
 @Component({
-  selector: '<proposal-table></proposal-table>',
-  templateUrl: './proposal_table.component.html',
-  styleUrls: ['./proposal_table.component.scss']
+  selector: "<proposal-table></proposal-table>",
+  templateUrl: "./proposal_table.component.html",
+  styleUrls: ["./proposal_table.component.scss"],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ProposalTableComponent {
-  constructor() {}
-  displayedColumns = ['name', 'boat_type', 'service', 'boat_location', 'job_type', 'actions'];
-  dataSource = ELEMENT_DATA;
-}
+export class ProposalTableComponent implements OnInit {
+  @Input() dataSource;
+  constructor(
+    private proposalService: ProposalService,
+    private ref: ChangeDetectorRef,
+    private router: Router
+  ) {}
+  displayedColumns = [
+    "name",
+    "boat_type",
+    "service",
+    "boat_location",
+    "job_type",
+    "actions"
+  ];
 
-const ELEMENT_DATA: Proposal[] = [
-  {name: 'Hydrogen', boat_type: 'Motor boat', service: 'Engine Repair', boat_location: 'Copenhangen', job_type: 'Normal'},
-];
+  ngOnInit() {
+    
+  }
+
+  async reload(url: string): Promise<boolean> {
+    await this.router.navigateByUrl(".", { skipLocationChange: true });
+    return this.router.navigateByUrl(url);
+  }
+
+  async cancelProposal(proposal_id) {
+    await this.proposalService.cancelProposal(proposal_id);
+    this.dataSource = this.dataSource.map(
+      (ds: any) => ds.proposal_id !== proposal_id
+    );
+    this.reload("proposal");
+    this.ref.markForCheck();
+  }
+}

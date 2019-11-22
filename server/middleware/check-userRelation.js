@@ -2,10 +2,10 @@ const Company = require('../models/company');
 const ObjectId = require('mongoose').Types.ObjectId; 
 
 exports.validateUserCompany = async function(req, res, next) {
-  const isUserAllowed = await Company.findOne({user_id: ObjectId(req.user._id)});
+  const company = await Company.findOne({user_id: ObjectId(req.user._id)});
 
-  if(isUserAllowed){
-    return next();
+  if(company){
+    return res.status(200).send({userId: req.user._id, companyId: company._id});
   }
 
   return res.status(401).send('Unauthorized');

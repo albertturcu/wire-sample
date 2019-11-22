@@ -8,6 +8,7 @@ import { User } from 'app/core/Interfaces/user';
 })
 export class AuthGuard implements CanActivate, CanActivateChild {
   constructor(private authenticationService: AuthenticationService, private router: Router){}
+  
   canActivate() {
     return this.handleRoute();
   }
@@ -17,8 +18,7 @@ export class AuthGuard implements CanActivate, CanActivateChild {
   }
 
   private handleRoute() {
-    const user = this.authenticationService.currentUserValue;
-    
+    const user = this.authenticationService.currentUserValue();
     if (user) {
         return true;
     }

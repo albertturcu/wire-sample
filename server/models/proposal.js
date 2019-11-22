@@ -8,7 +8,7 @@ var ProposalSchema = new mongoose.Schema(
     negotiable: Boolean,
     status: {
       type: String,
-      enum: ['pending', 'accepted', 'rejected', 'canceled'],
+      enum: ['pending', 'accepted', 'rejected', 'cancelled'],
     },
     company_id: ObjectId,
     job_id: ObjectId,

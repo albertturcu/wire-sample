@@ -2,10 +2,10 @@
 
 <mat-tab-group mat-stretch-tabs>
   <mat-tab label="Pending">
-    <proposal-table></proposal-table>
+    <proposal-table [dataSource]="pendingProposals"></proposal-table>
   </mat-tab>
   <mat-tab label="Accepted">
-    <proposal-table></proposal-table>
+    <proposal-table [dataSource]="acceptedProposals"></proposal-table>
   </mat-tab>
   <mat-tab label="Completed">
     <proposal-table></proposal-table>
@@ -14,7 +14,7 @@
     <proposal-table></proposal-table>
   </mat-tab>
   <mat-tab label="Cancelled">
-    <proposal-table></proposal-table>
+    <proposal-table [dataSource]="cancelledProposals"></proposal-table>
   </mat-tab>
 </mat-tab-group>
 

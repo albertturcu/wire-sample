@@ -8,39 +8,43 @@ import { User } from '../Interfaces/user';
 
 @Injectable({ providedIn: 'root' })
 export class AuthenticationService {
-    private currentUserSubject: BehaviorSubject<User>;
-    public currentUser: Observable<User>;
-    public isLoggedIn: boolean;
+    currentUserSubject: BehaviorSubject<User>;
+    currentUser: Observable<User>;
+    isLoggedIn: boolean = false;
 
     constructor(private http: HttpClient) {
-        this.currentUserSubject = new BehaviorSubject<User>(JSON.parse(localStorage.getItem('currentUser')));
+        this.currentUserSubject = new BehaviorSubject<any>(localStorage.getItem('currentUser'));
         this.currentUser = this.currentUserSubject.asObservable();
         this.currentUserValue();
     }
 
-    public currentUserValue(): any {
-        if (this.currentUser) {
-            this.isLoggedIn = true;
-          } else {
-            this.isLoggedIn = false;
-          }
-      
+    currentUserValue(): any {
+        this.currentUser.subscribe(data=>{
+            if (data) {
+                this.isLoggedIn = true;
+            } else {
+                this.isLoggedIn = false;
+            }
+        });
         return this.currentUserSubject.value;
     }
-    
 
-    login(username: string, password: string) {
-        return this.http.post<any>(`${environment.SERVER_URL}/api/login`, { username: username, password: password })
-            .pipe(map(user => {
-                console.log(user);
-                localStorage.setItem('currentUser', JSON.stringify(user));
-                this.currentUserSubject.next(user);
-                return user;
-            }));
+    async login(username: string, password: string) {
+        const res = await this.http.post<any>(`${environment.SERVER_URL}/api/login`, { username: username, password: password }).toPromise<any>();
+        localStorage.setItem('currentUser', JSON.stringify(res.useId));
+        localStorage.setItem('companyId', JSON.stringify(res.companyId));
+        
+              
+        this.currentUserSubject.next(res.userId);
+        this.isLoggedIn = true;
+
+        return this.currentUser;
     }
 
     logout() {
-        localStorage.removeItem('currentUser');
+        localStorage.clear();
         this.currentUserSubject.next(null);
+        this.currentUser = null;
+        this.isLoggedIn = false;
     }
 }
