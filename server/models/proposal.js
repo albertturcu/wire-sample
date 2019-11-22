@@ -1,20 +1,21 @@
-var mongoose = require("mongoose");
-var passportLocalMongoose = require("passport-local-mongoose");
+var mongoose = require('mongoose');
+var ObjectId = mongoose.Schema.Types.ObjectId;
 
-var ProposalSchema = new mongoose.Schema({
-    active: Boolean,
-    profile_pic: String,
-    name: String,
-    email: String,
-    user_role_id: Int,
-    password: String,
-    phone_number: String,
-    address: String,
-    zip_code: String,
+var ProposalSchema = new mongoose.Schema(
+  {
+    date: Date,
+    description: String,
+    negotiable: Boolean,
+    status: {
+      type: String,
+      enum: ['pending', 'accepted', 'rejected', 'canceled'],
+    },
+    company_id: ObjectId,
+    job_id: ObjectId,
     created_at: Date,
-    updated_at: Date
-});
+    updated_at: Date,
+  },
+  { autoCreate: true }
+);
 
-ProposalSchema.plugin(passportLocalMongoose);
-
-module.exports = mongoose.model("Proposal", ProposalSchema);
+module.exports = mongoose.model('Proposal', ProposalSchema);

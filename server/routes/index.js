@@ -14,7 +14,7 @@ router.post(
   passport.authenticate('local'),
   validate.validateUserCompany,
   function(req, res) {
-    res.status(200).send({status: 'allowed'});
+    res.status(200).send({userId: req.user._id});
   }
 );
 
@@ -25,7 +25,6 @@ router.post('/register', function(req, res) {
   ) {
     if (err) {
       console.log(err);
-      return res.render('register');
     }
   });
 });

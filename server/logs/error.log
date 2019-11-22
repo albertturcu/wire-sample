@@ -218,3 +218,81 @@
   service: 'user-service',
   timestamp: '2019-11-20T15:29:42.167Z'
 }
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:56:44.412Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:58:29.428Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:59:20.254Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:01:01.568Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:10.792Z'
+}
+{
+  message: 'Mongoose default connection error: Error: A non-capped collection exists with the name: companies\n' +
+    '\n' +
+    ' To use this collection as a capped collection, please first convert it.\n' +
+    ' http://www.mongodb.org/display/DOCS/Capped+Collections#CappedCollections-Convertingacollectiontocapped',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:06.877Z'
+}
+{
+  message: 'Mongoose default connection error: Error: A non-capped collection exists with the name: users\n' +
+    '\n' +
+    ' To use this collection as a capped collection, please first convert it.\n' +
+    ' http://www.mongodb.org/display/DOCS/Capped+Collections#CappedCollections-Convertingacollectiontocapped',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:14.475Z'
+}
+{
+  message: "Mongoose default connection error: MongoError: a collection 'wiredeltasample.users' already exists",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:02.023Z'
+}
+{
+  message: 'Mongoose default connection error: Error: A non-capped collection exists with the name: users\n' +
+    '\n' +
+    ' To use this collection as a capped collection, please first convert it.\n' +
+    ' http://www.mongodb.org/display/DOCS/Capped+Collections#CappedCollections-Convertingacollectiontocapped',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:33.711Z'
+}
+{
+  message: 'Mongoose default connection error: Error: A non-capped collection exists with the name: companies\n' +
+    '\n' +
+    ' To use this collection as a capped collection, please first convert it.\n' +
+    ' http://www.mongodb.org/display/DOCS/Capped+Collections#CappedCollections-Convertingacollectiontocapped',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:46.027Z'
+}
+{
+  message: "Mongoose default connection error: MongoError: a collection 'wiredeltasample.users' already exists",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:02.550Z'
+}

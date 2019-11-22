@@ -4,7 +4,7 @@ import { environment } from '../../environments/environment';
 
 import { AUTH_ROUTES } from '../authentication/authentication.routes';
 import { AuthenticationComponent } from '../authentication/authentication.component';
-import { CommonModule } from '@angular/common';
+import { AuthGuard } from 'app/authentication/authentication.guard';
 
 
 const routes: Routes = [

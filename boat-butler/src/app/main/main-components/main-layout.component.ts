@@ -1,7 +1,13 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
-  selector: '<app-main-layout></app-main-layout>',
+  selector: 'app-main-layout',
   templateUrl: './main-layout.component.html',
+  styleUrls: ['./main-layout.component.scss'],
 })
-export class MainLayoutComponent{}
+export class MainLayoutComponent {
+
+  constructor() {}
+
+}

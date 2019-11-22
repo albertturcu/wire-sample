@@ -1,7 +1,7 @@
 {
-  "name": "databaseapi",
+  "name": "boat_butler_api",
   "version": "1.0.0",
-  "description": "Restful API for Database",
+  "description": "Restful API",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

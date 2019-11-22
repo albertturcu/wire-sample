@@ -1,0 +1,27 @@
+.sidebar-inner ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.sidebar-inner li {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  max-width: 100%;
+  position: relative;
+  padding: 15px 0px 15px 0px;
+}
+
+.sidebar-inner a{
+  padding-left: 20px;
+  color: #91b2d1;
+  text-decoration: none;
+}
+
+.active-link {
+  background-color: #91b2d1;
+}
+
+.active-link a {
+  color:  #1b2a49;
+}

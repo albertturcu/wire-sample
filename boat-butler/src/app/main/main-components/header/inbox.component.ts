@@ -1,24 +1,24 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-notification',
+  selector: 'app-inbox',
   template: `
     <button mat-icon-button [matMenuTriggerFor]="menu">
-      <mat-icon style="color: white" matBadge="8" matBadgePosition="above after" matBadgeColor="warn">notifications_none</mat-icon>
+      <mat-icon style="color: white" matBadge="3" matBadgePosition="above after" matBadgeColor="warn">email</mat-icon>
     </button>
 
     <mat-menu #menu="matMenu">
       <mat-nav-list>
         <mat-list-item *ngFor="let message of messages">
-          <a matLine href="#">{{ message }}</a>
+          <mat-icon>account_circle</mat-icon>
           <button mat-icon-button>
-            <mat-icon>info</mat-icon>
+            <a matLine href="#">{{  message }}</a>
           </button>
         </mat-list-item>
       </mat-nav-list>
     </mat-menu>
   `,
 })
-export class NotificationComponent {
-  messages = ['Server Error Reports', 'Server Error Reports', 'Server Error Reports'];
+export class InboxComponent {
+  messages = ['Hej!', 'Hello!', 'Ola!'];
 }

@@ -3530,3 +3530,1407 @@
   service: 'user-service',
   timestamp: '2019-11-20T23:49:08.193Z'
 }
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T11:59:57.064Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T11:59:57.271Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T11:59:57.282Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T12:11:20.120Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T12:11:20.290Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T12:11:20.307Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:20:15.141Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:20:15.362Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:20:15.377Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:20:59.311Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:20:59.547Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:20:59.560Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:21:21.065Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:21:21.263Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:21:21.281Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:25:16.430Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:25:16.654Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:25:16.668Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:13.897Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:14.108Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:14.132Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:36.355Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:36.549Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:36.565Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:43.807Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:44.000Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:28:44.013Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:31:58.506Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:31:58.711Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:31:58.723Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:33:55.885Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:33:56.098Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:33:56.109Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:41:03.307Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:41:03.522Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:41:03.534Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:42:43.702Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:42:43.886Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:42:43.901Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:02.194Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:02.379Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:02.393Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:38.636Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:38.912Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:38.931Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:59.178Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:59.453Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:43:59.472Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:44:07.184Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:44:07.411Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:44:07.426Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:44:07.821Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:44:08.076Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:44:08.090Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:45:14.406Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:45:14.582Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:45:14.595Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:46:51.143Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:46:51.335Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:46:51.348Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:02.065Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:02.253Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:02.267Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:10.816Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:11.088Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:11.106Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:55.959Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:56.199Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:48:56.215Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:08.388Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:08.681Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:08.701Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:26.895Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:27.112Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:27.130Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:37.423Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:37.704Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:37.722Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:38.626Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:49.096Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:49.288Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:49.304Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:57.704Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:57.897Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:49:57.909Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:50:59.560Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:50:59.864Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:50:59.884Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:51:07.046Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:51:07.253Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:51:07.273Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:51:11.253Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:51:37.084Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:51:37.343Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:51:37.365Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:08.704Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:08.956Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:08.982Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:25.025Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:25.237Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:25.253Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:26.439Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:26.716Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:26.737Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:52:27.303Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:56:44.412Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:57:23.064Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:57:23.366Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:57:23.386Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:58:20.928Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:58:21.138Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:58:21.153Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:58:29.428Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:59:19.500Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:59:19.736Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:59:19.752Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T17:59:20.254Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:00:58.197Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:00:58.471Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:00:58.490Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:01:01.568Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:09.776Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:10.069Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:10.088Z'
+}
+{
+  status: 404,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:10.792Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:51.013Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:51.237Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:02:51.258Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:04:17.151Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:06:58.324Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:08:42.543Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:09:11.103Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:09:18.139Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:09:21.527Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:11:55.685Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:11:55.993Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:11:56.015Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:12:59.286Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:12:59.532Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:12:59.547Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:13:40.744Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:13:41.100Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T18:13:41.123Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T21:56:13.897Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T21:56:14.155Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T21:56:14.168Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T21:56:43.779Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T21:56:43.955Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T21:56:43.972Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:06:16.246Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:07:01.855Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:07:13.126Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:07:18.734Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:07:24.058Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:07:40.890Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:07:41.042Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:07:41.055Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:11:24.219Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:11:24.422Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:11:24.433Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:00.925Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:01.183Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:01.208Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:06.578Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:06.847Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:06.864Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:14.183Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:14.442Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:13:14.459Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:01.807Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:01.965Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:01.977Z'
+}
+{
+  message: "Mongoose default connection error: MongoError: a collection 'wiredeltasample.users' already exists",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:02.023Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:33.488Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:33.680Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:33.697Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:45.836Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:46.007Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:14:46.017Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:15:02.646Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:15:02.809Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:15:02.823Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:15:44.998Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:15:45.244Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:15:45.266Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:15:48.032Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:02.353Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:02.507Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:02.518Z'
+}
+{
+  message: "Mongoose default connection error: MongoError: a collection 'wiredeltasample.users' already exists",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:02.550Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:15.994Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:16.170Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:16.181Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:25.656Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:25.871Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:25.883Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:29.104Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:29.388Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:29.404Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:33.672Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:33.926Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:33.942Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:17:41.600Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:18:14.743Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:18:14.902Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:18:14.917Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:18:23.109Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:18:23.276Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:18:23.290Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:18:32.743Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:19:14.510Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:19:19.048Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:20:08.213Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:20:08.365Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:20:08.375Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:20:37.398Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:26:40.982Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:28:25.720Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:29:46.009Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:29:54.904Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:31:50.795Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:31:57.433Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:33:03.830Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:34:54.189Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:35:10.348Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:35:10.498Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:35:10.509Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:41:14.948Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:41:15.116Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:41:15.127Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:41:27.202Z'
+}
+{
+  message: 'Using .env file to supply config environment variables',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:41:30.874Z'
+}
+{
+  message: 'Boatbutler app listening on 3502!',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:41:31.042Z'
+}
+{
+  message: 'Successfully connected to database',
+  level: 'debug',
+  service: 'user-service',
+  timestamp: '2019-11-21T22:41:31.054Z'
+}

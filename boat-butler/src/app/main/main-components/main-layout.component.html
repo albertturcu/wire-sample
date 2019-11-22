@@ -1,22 +1,15 @@
-<div class="wrapper">
-  <!-- Header Above -->
-  <app-header #header (toggleSidenav)="sidenav.toggle()"></app-header>
+<ng-container>
+  <app-header #header class="header" (toggleSidenav)="sidenav.toggle()"></app-header>
 
-  <mat-sidenav-container autosize autoFocus>
-    <mat-sidenav #sidenav
-                 [mode]="isOver ? 'over' : 'side'"
-                 [opened]="!isOver"
-                 (openedChange)="openedChange($event)">
-      <app-sidebar></app-sidebar>
+  <mat-sidenav-container class="container">
+    <mat-sidenav #sidenav mode="side" opened class="sidenav"
+                 [fixedInViewport]="false" [fixedTopGap]="0"
+                 [fixedBottomGap]="0">
+        <app-sidebar></app-sidebar>
     </mat-sidenav>
 
-    <mat-sidenav-content #content>
-      <app-header #header (toggleSidenav)="sidenav.toggle()"></app-header>
-
-      <div class="content">
-        <router-outlet></router-outlet>
-      </div>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
     </mat-sidenav-content>
   </mat-sidenav-container>
-
-</div>
+</ng-container>

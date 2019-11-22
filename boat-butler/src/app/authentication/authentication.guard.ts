@@ -17,7 +17,8 @@ export class AuthGuard implements CanActivate, CanActivateChild {
   }
 
   private handleRoute() {
-    const user = this.authenticationService.currentUserValue();
+    const user = this.authenticationService.currentUserValue;
+    
     if (user) {
         return true;
     }

@@ -1,12 +1,10 @@
-<mat-toolbar>
-  <button mat-button class="matero-hamburger" (click)="toggleSidenav.emit()" *ngIf="showToggle">
+<mat-toolbar class="layout-header">
+  <button mat-button (click)="toggleSidenav.emit()" *ngIf="showToggle">
     <mat-icon>menu</mat-icon>
   </button>
-  
-  <span fxFlex></span>
-
-  <app-notification fxHide.lt-sm></app-notification>
-
+  <a class="branding-title">Njord</a>
+  <app-notification style="margin-left:auto"></app-notification>
+  <app-inbox style="margin-left: 10px"></app-inbox>
   <app-user></app-user>
 
 </mat-toolbar>

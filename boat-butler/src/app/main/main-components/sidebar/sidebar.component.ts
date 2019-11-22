@@ -1,10 +1,16 @@
-import { Component } from "@angular/core";
+import { Component, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
-  selector: '<app-sidebar></app-sidebar>',
-  templateUrl: './sidebard.component.html',
+  selector: 'app-sidebar',
+  templateUrl: './sidebar.component.html',
+  styleUrls: ['./sidebar.component.scss'],
 })
 export class SidebarComponent {
+  @Input() showToggle = true;
+  @Input() showUser = true;
+  @Input() showHeader = true;
 
-  constructor(){}
+  @Output() toggleCollapsed = new EventEmitter<void>();
+
+  constructor() {}
 }

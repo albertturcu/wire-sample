@@ -1,0 +1,17 @@
+.container {
+  height: 400px;
+  overflow: auto;
+  background-color: white;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-tab.mat-tab-active {
+  min-width: 25px !important;
+  padding: 5px;
+  background-color: transparent;
+  color: red;
+  font-weight: 700;
+}
