@@ -11,6 +11,7 @@ import { first } from 'rxjs/operators';
 })
 export class LoginComponent implements OnInit {
   loginForm: FormGroup;
+  showErrorMessage: string;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -32,7 +33,11 @@ export class LoginComponent implements OnInit {
   get f() { return this.loginForm.controls; }
 
   async login() {
-    await this.authenticationService.login(this.f.username.value, this.f.password.value);
-    this.router.navigate(['/proposals']);
+    const res = await this.authenticationService.login(this.f.username.value, this.f.password.value);
+    if(res!=='Unauthorized'){
+      this.router.navigate(['/proposals']);
+    }
+
+    this.showErrorMessage = 'Invalid username or password! Please try again'
   }
 }

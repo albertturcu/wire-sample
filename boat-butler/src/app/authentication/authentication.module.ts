@@ -4,13 +4,15 @@ import { AuthenticationComponent } from './authentication.component';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from 'app/material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
     RouterModule,
     MaterialModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
   declarations: [LoginComponent, AuthenticationComponent],
 })

@@ -29,6 +29,9 @@
 
         <div class="m-t-16"><a routerLink="#"  style="color:grey">Terms & Condition</a></div>
       </form>
+      <div>
+        <h1 class="errorMessage" *ngIf="showErrorMessage">{{showErrorMessage}}</h1>
+      </div>
     </mat-card-content>
   </mat-card>
 </div>
