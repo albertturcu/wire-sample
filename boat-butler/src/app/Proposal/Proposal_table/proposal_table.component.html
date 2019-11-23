@@ -41,7 +41,7 @@
           style="max-width: 150px;
           margin-right: 45px;
           margin-left: 45px;"
-          (click)="cancelProposal(element.proposal_id)"
+          (click)="openDialog(element.proposal_id)"
           *ngIf="element.status!=='cancelled'"
         >Cancel Proposal
         </button>

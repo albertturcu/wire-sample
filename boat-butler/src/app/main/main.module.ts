@@ -11,8 +11,9 @@ import { MainRoutingModule } from "./main.routing";
 import { RouterModule } from "@angular/router";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { InboxComponent } from './main-components/header/inbox.component';
-import { ProposalTableComponent } from 'app/Proposal/Proposal_table/proposal_table.component';
+import { InboxComponent } from "./main-components/header/inbox.component";
+import { ProposalTableComponent } from "../Proposal/Proposal_table/proposal_table.component";
+import { CancelDialog } from "app/Modals/Cancel_modal/cancel-modal.component";
 
 @NgModule({
   declarations: [
@@ -23,8 +24,10 @@ import { ProposalTableComponent } from 'app/Proposal/Proposal_table/proposal_tab
     NotificationComponent,
     UserComponent,
     InboxComponent,
-    ProposalTableComponent
+    ProposalTableComponent,
+    CancelDialog
   ],
+  entryComponents: [CancelDialog],
   imports: [
     CommonModule,
     MaterialModule,

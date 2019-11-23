@@ -8,34 +8,35 @@ import { User } from '../Interfaces/user';
 
 @Injectable({ providedIn: 'root' })
 export class AuthenticationService {
-    currentUserSubject: BehaviorSubject<User>;
-    currentUser: Observable<User>;
+    currentUser: string;
     isLoggedIn: boolean = false;
 
     constructor(private http: HttpClient) {
-        this.currentUserSubject = new BehaviorSubject<any>(localStorage.getItem('currentUser'));
-        this.currentUser = this.currentUserSubject.asObservable();
         this.currentUserValue();
     }
 
-    currentUserValue(): any {
-        this.currentUser.subscribe(data=>{
-            if (data) {
-                this.isLoggedIn = true;
-            } else {
-                this.isLoggedIn = false;
-            }
-        });
-        return this.currentUserSubject.value;
-    }
+    currentUserValue() {
+        if (!this.currentUser) {
+          this.currentUser = localStorage.getItem('currentUser');
+        }
+    
+        if (this.currentUser) {
+          this.isLoggedIn = true;
+        } else {
+          this.isLoggedIn = false;
+        }
+    
+        return this.currentUser;
+      }
+    
 
     async login(username: string, password: string) {
         const res = await this.http.post<any>(`${environment.SERVER_URL}/api/login`, { username: username, password: password }).toPromise<any>();
-        localStorage.setItem('currentUser', JSON.stringify(res.useId));
+        localStorage.setItem('currentUser', JSON.stringify(res.userId));
         localStorage.setItem('companyId', JSON.stringify(res.companyId));
         
               
-        this.currentUserSubject.next(res.userId);
+        this.currentUser = res.userId;
         this.isLoggedIn = true;
 
         return this.currentUser;
@@ -43,7 +44,6 @@ export class AuthenticationService {
 
     logout() {
         localStorage.clear();
-        this.currentUserSubject.next(null);
         this.currentUser = null;
         this.isLoggedIn = false;
     }

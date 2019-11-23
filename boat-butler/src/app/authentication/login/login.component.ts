@@ -11,7 +11,6 @@ import { first } from 'rxjs/operators';
 })
 export class LoginComponent implements OnInit {
   loginForm: FormGroup;
-  error: '';
 
   constructor(
     private formBuilder: FormBuilder,
@@ -28,7 +27,6 @@ export class LoginComponent implements OnInit {
     if (this.authenticationService.isLoggedIn) {
       this.router.navigate(['/proposals']);
     }
-    console.log(this.authenticationService.isLoggedIn);
   }
 
   get f() { return this.loginForm.controls; }

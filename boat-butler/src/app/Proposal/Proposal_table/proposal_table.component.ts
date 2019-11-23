@@ -8,6 +8,8 @@ import {
 import { Proposal } from "../../core/Interfaces/proposal";
 import { ProposalService } from "app/core/services/proposal.service";
 import { Router } from "@angular/router";
+import { MatDialog } from '@angular/material/dialog';
+import { CancelDialog } from '../../Modals/Cancel_modal/cancel-modal.component';
 
 @Component({
   selector: "<proposal-table></proposal-table>",
@@ -18,9 +20,7 @@ import { Router } from "@angular/router";
 export class ProposalTableComponent implements OnInit {
   @Input() dataSource;
   constructor(
-    private proposalService: ProposalService,
-    private ref: ChangeDetectorRef,
-    private router: Router
+    public dialog: MatDialog
   ) {}
   displayedColumns = [
     "name",
@@ -35,17 +35,13 @@ export class ProposalTableComponent implements OnInit {
     
   }
 
-  async reload(url: string): Promise<boolean> {
-    await this.router.navigateByUrl(".", { skipLocationChange: true });
-    return this.router.navigateByUrl(url);
-  }
-
-  async cancelProposal(proposal_id) {
-    await this.proposalService.cancelProposal(proposal_id);
-    this.dataSource = this.dataSource.map(
-      (ds: any) => ds.proposal_id !== proposal_id
-    );
-    this.reload("proposal");
-    this.ref.markForCheck();
+  async openDialog(proposal_id): Promise<any> {
+    const dialogRef = this.dialog.open(CancelDialog, {
+      width: '250px',
+      data: {
+        id: proposal_id,
+      }
+    });
+    await dialogRef.afterClosed().toPromise()
   }
 }
