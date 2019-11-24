@@ -12,4 +12,4 @@ variables needed in .env file are:
   - MONGODB_URI_LOCAL="" (for development only MONGODB_URI_LOCAL is needed)
   - SESSION_SECRET=""
   - PASSPORT_SECRET=""
-  - PORT=
+  - PORT=3502 (specific port, it is set as proxy in angular project)
