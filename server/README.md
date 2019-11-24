@@ -6,10 +6,10 @@ node seedDb.js
 
 npm run start - for starting the server. 
 
-variables needed in env file are:
-  -NODE_ENV="development"
-  -MONGODB_URI=""
-  -MONGODB_URI_LOCAL="" (for development only MONGODB_URI_LOCAL is needed)
-  -SESSION_SECRET=""
-  -PASSPORT_SECRET=""
-  -PORT=
+variables needed in env file are: 
+    -NODE_ENV="development"
+    -MONGODB_URI=""
+    -MONGODB_URI_LOCAL="" (for development only MONGODB_URI_LOCAL is needed)
+    -SESSION_SECRET=""
+    -PASSPORT_SECRET=""
+    -PORT=
