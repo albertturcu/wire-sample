@@ -2,12 +2,8 @@ import {
   Component,
   Input,
   OnInit,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef
+  ChangeDetectionStrategy
 } from "@angular/core";
-import { Proposal } from "../../core/Interfaces/proposal";
-import { ProposalService } from "app/core/services/proposal.service";
-import { Router } from "@angular/router";
 import { MatDialog } from '@angular/material/dialog';
 import { CancelDialog } from '../../Modals/Cancel_modal/cancel-modal.component';
 
